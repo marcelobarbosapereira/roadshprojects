@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.testimonial h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.testimonial p {
+    font-size: 1em;
+    color: #333;
+}
+
+.testimonial .name {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.testimonial .name img {
+    margin-right: 10px;
+}
+
+.testimonial .stars {
+    color: gold;
+    font-size: 1.2em;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.carousel img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.carousel .arrow {
+    font-size: 2em;
+    cursor: pointer;
+}
